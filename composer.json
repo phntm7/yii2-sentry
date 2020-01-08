@@ -1,5 +1,5 @@
 {
-    "name": "olegtsvetkov/yii2-sentry",
+    "name": "phntm7/yii2-sentry",
     "description": "Yii2 integration for Sentry",
     "keywords": ["logging", "errors", "yii2", "sentry", "v2", "sdk"],
     "type": "library",
