@@ -8,9 +8,9 @@ use Sentry\Integration\IntegrationInterface;
 use Sentry\Options;
 use Sentry\State\Hub;
 use Sentry\State\Scope;
-use yii\base\BaseObject;
+use yii\base\Object;
 
-class Integration extends BaseObject implements IntegrationInterface
+class Integration extends Object implements IntegrationInterface
 {
     /**
      * List of HTTP methods for whom the request body must be passed to the Sentry
